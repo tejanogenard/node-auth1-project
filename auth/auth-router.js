@@ -1,7 +1,7 @@
 const bcryptjs = require("bcryptjs");
 const router = require("express").Router();
-const Users = require("../users/users-model.js");
-const usersModel = require("../users/users-model.js");
+const Users = require("../users/user-model.js");
+
 
 router.post("/register", (req, res) => {
   // validate the body, to make sure there is a username and password.
